@@ -1,17 +1,17 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.vogella.tycho</groupId>
-    <artifactId>com.vogella.tycho.bundles</artifactId>
+    <groupId>com.softalks.tycho</groupId>
+    <artifactId>com.softalks.tycho.bundles</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     
     <parent>
-        <groupId>com.vogella.tycho.example</groupId>
-        <artifactId>com.vogella.tycho.example.root</artifactId>
+        <groupId>com.softalks.tycho</groupId>
+        <artifactId>com.softalks.tycho.root</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <modules>
-        <module>com.vogella.tycho.plugin1</module>
+        <module>com.softalks.pilot.bundle</module>
     </modules>
 </project> 
