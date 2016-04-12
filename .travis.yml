@@ -2,10 +2,8 @@ language: java
 
 jdk:
   - openjdk6
-
-install: mvn install -DskipTests=true -Popensource 
-
-script: mvn clean test -Popensource
+  
+script: mvn clean verify
 
 addons:
   artifacts: true
@@ -13,4 +11,3 @@ addons:
 notifications:
   email: 
     - hiebra@hotmail.com
-    - santiago.ruiz@correo.aeat.es
