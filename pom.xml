@@ -12,6 +12,7 @@
     </parent>
 
     <modules>
-        <module>bundles/com.softalks.pilot.bundle</module>
+        <module>bundles</module>
+        <module>releng</module>
     </modules>
 </project>
