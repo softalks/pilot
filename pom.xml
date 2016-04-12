@@ -1,35 +1,17 @@
 <project>
-  <modelversion>4.0.0</modelversion>
-  <groupid>com.softalks</groupid>
-  <artifactid>tycho</artifactid>
-  <version>0.1.0.qualifier</version>
-  <packaging>pom</packaging>
-  <modules>
-    <module>com.softalks.example</module>
-  </modules>
- 
-  <properties>
-    <tycho-version>0.24.0</tycho-version>
-  </properties>
- 
-  <repositories>
-   <repository>
-     <id>luna</id>
-     <layout>p2</layout>
-     <url>http://download.eclipse.org/releases/luna</url>
-   </repository> 
-  </repositories>
- 
-  <build>
-    <plugins>
-      <plugin>
-        <groupid>org.eclipse.tycho</groupid>
-        <artifactid>tycho-maven-plugin</artifactid>
-        <version>${tycho-version}</version>
-        <extensions>true</extensions>
-      </plugin>
-    </plugins>
-  </build>
-   
- 
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.softalks.tycho</groupId>
+    <artifactId>com.softalks.tycho.root</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <parent>
+            <groupId>com.softalks.tycho</groupId>
+            <artifactId>com.softalks.tycho.configuration</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        <relativePath>./releng/com.vogella.tycho.configuration</relativePath>
+    </parent>
+
+    <modules>
+        <module>releng/com.softalks.tycho.configuration</module>
+    </modules>
 </project>
