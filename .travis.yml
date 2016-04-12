@@ -1,1 +1,16 @@
+language: java
 
+jdk:
+  - openjdk6
+
+install: mvn install -DskipTests=true -Popensource 
+
+script: mvn clean test -Popensource
+
+addons:
+  artifacts: true
+
+notifications:
+  email: 
+    - hiebra@hotmail.com
+    - santiago.ruiz@correo.aeat.es
