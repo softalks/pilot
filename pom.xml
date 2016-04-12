@@ -12,6 +12,6 @@
     </parent>
 
     <modules>
-        <module>releng/com.softalks.tycho.configuration</module>
+        <module>bundles/com.softalks.pilot.bundle</module>
     </modules>
 </project>
