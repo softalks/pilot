@@ -1,12 +1,6 @@
 language: java
 
-jdk:
-  - openjdk6
-  
 script: mvn clean verify
-
-addons:
-  artifacts: true
 
 notifications:
   email: 
