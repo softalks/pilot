@@ -1,1 +1,1 @@
-https://travis-ci.org/softalks/test
+Automated builds: https://travis-ci.org/softalks/pilot
